@@ -201,7 +201,7 @@ if(process.env.Node_ENV == "production")
 {
   app.use(express.static('client/build'))
   const path = require('path')
-  __dirname = path.resolve
+  __dirname = path.resolve()
   app.get("*",(req,res)=>{
     res.sendFile(path.resolve(__dirname,'client','build','index.html'))
   })
