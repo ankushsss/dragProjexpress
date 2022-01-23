@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./App.css";
 import MinSize from "./MinSize";
-import { Horizontal } from "./Horizontal";
+
 function App2() {
   const ref = useRef(null);
   const refLeft = useRef(null);

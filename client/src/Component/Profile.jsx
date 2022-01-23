@@ -15,9 +15,9 @@ export const Profile = () => {
                     <h3 className="card-name">Ankush Saxena</h3>
                     <p className="card-description">MERN Stack || Frontend Developer  <br/>React || Next || UI/UX Design || Photoshop</p>
                     <div classNameName="card-button">
-                        <button className="btn btn-primary"><i className="fab fa-facebook-f"></i></button>
-                        <button className="btn btn-primary" style={{marginLeft:"5px"}}><i className="fab fa-linkedin-in"></i></button>
-                        <button className="btn btn-primary" style={{marginLeft:"5px"}}><i className="fab fa-instagram"></i></button>
+                        <button className="btn btn-primary"><a href="https://www.facebook.com/ankush.saxena.5243/"><i className="fab fa-facebook-f"></i></a></button>
+                        <button className="btn btn-primary" style={{marginLeft:"5px"}}><a href="https://www.linkedin.com/in/ankushsss99/"><i className="fab fa-linkedin-in"></i></a></button>
+                        <button className="btn btn-primary" style={{marginLeft:"5px"}}><a href="https://github.com/ankushsss"><i className="fab fa-github"></i></a></button>
                         
                     </div>
                     <br/>

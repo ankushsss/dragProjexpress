@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./App.css";
-import MinSize from "./MinSize";
+
 import { Horizontal } from "./Horizontal";
 function App() {
   const ref = useRef(null);
